@@ -9,21 +9,25 @@ If you use this software in a publication, please cite it as:
 
 ### Text
 
-S. Huber, T. Pfandzelter and D. Bermbach, **Identifying Nearest Fog Nodes With Network Coordinate Systems**, arXiv:2306.10321, 2023.
+S. Huber, T. Pfandzelter and D. Bermbach, **Identifying Nearest Fog Nodes With Network Coordinate Systems**. 11th IEEE International Conference on Cloud Engineering (IC2E 2023). Boston, MA, USA. IEEE 2023.
 
 ### BibTeX
 
 ```bibtex
-@unpublished{huber2023nearestnodes,
+@inproceedings{huber2023nearestnodes,
     author = "Huber, Simon and Pfandzelter, Tobias and Bermbach, David",
     title = "Identifying Nearest Fog Nodes With Network Coordinate Systems",
-    month = jun,
+    booktitle = "Proceedings of the 11th IEEE International Conference on Cloud Engineering",
+    month = sep,
     year = 2023,
-    Eprint = "2306.10321"
+    publisher = "IEEE",
+    address = "New York, NY, USA",
+    series = "IC2E 2023",
+    location = "Boston, MA, USA",
 }
-
 ```
 
+An extended technical report is available on [arXiv](https://arxiv.org/abs/2306.10321).
 For a full list of publications, please see [our website](https://www.tu.berlin/en/mcc/research/publications).
 
 ### Default Scenario
@@ -50,13 +54,13 @@ For a full list of publications, please see [our website](https://www.tu.berlin/
 
 Step 1: Install the Dependencies from environment.yml with Anaconda:
 
-```
+```sh
 conda env create -f environment.yml
 ```
 
 Step 2: Activate Anaconda environment:
 
-```
+```sh
 conda activate fog-node-discovery
 ```
 
@@ -97,7 +101,7 @@ Boundaries:
 
 Step 4: Run the simulation
 
-```
+```sh
 python main.py
 ```
 
